@@ -38,23 +38,23 @@
 							<ul class="nav navbar-nav menu_nav ml-auto">
 								<li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li> 
 								<li class="nav-item"><a class="nav-link" href="about-us.html">About</a></li> 
-								<!-- <li class="nav-item"><a class="nav-link" href="services.html">Services</a> -->
-								<!-- <li class="nav-item submenu dropdown">
+								<li class="nav-item"><a class="nav-link" href="services.html">Services</a>
+								<li class="nav-item submenu dropdown">
 									<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Pages</a>
 									<ul class="dropdown-menu">
 										<li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
 										<li class="nav-item"><a class="nav-link" href="portfolio-details.html">Project Details</a></li>
 										<li class="nav-item"><a class="nav-link" href="elements.html">Elements</a></li>
 									</ul>
-								</li>  -->
+								</li> 
 								<li class="nav-item"><a class="nav-link" href="project-details.html">Project Details</a></li>
-								<!-- <li class="nav-item submenu dropdown">
+								<li class="nav-item submenu dropdown">
 									<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Blog</a>
 									<ul class="dropdown-menu">
 										<li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
 										<li class="nav-item"><a class="nav-link" href="single-blog.html">Blog Details</a></li>
 									</ul>
-								</li>  -->
+								</li> 
 								<li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
 							</ul>
 						</div> 
@@ -276,7 +276,7 @@
 							</div>
 						</div>
 					</div>
-					<!-- <div class="col-lg-4 col-sm-6 brand work">
+					<div class="col-lg-4 col-sm-6 brand work">
 						<div class="projects_item">
 							<img class="img-fluid" src="img/projects/projects-5.jpg" alt="">
 							<div class="projects_text">
@@ -293,14 +293,14 @@
 								<p>Client Project</p>
 							</div>
 						</div>
-					</div> -->
+					</div>
 				</div>
         	</div>
         </section>
         <!--================End Projects Area =================-->
         
         <!-- ================Testimonials Area =================-->
-        <!-- <section class="testimonials_area p_120">
+        <section class="testimonials_area p_120">
         	<div class="container">
         		<div class="main_title">
         			<h2>Testimonials</h2>
@@ -344,11 +344,11 @@
 					</div>
         		</div>
         	</div>
-        </section> -->
+        </section>
         <!--================End Testimonials Area ================= -->
         
         <!--================Latest Blog Area =================-->
-        <!-- <section class="latest_blog_area p_120">
+        <section class="latest_blog_area p_120">
         	<div class="container">
         		<div class="main_title">
         			<h2>Latest Posts from Blog</h2>
@@ -399,7 +399,7 @@
         			</div>
         		</div>
         	</div>
-        </section> -->
+        </section>
         <!--================End Latest Blog Area =================-->
         
         <!--================Footer Area =================-->
@@ -425,10 +425,10 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
         					</div>
         					<p>Provide feedback of this webPage to me</p>
         					<div id="mc_embed_signup">
-                                <form id = "feedbackForm" class="subscribe_form relative">
+                                <form id = "feedbackForm" class="subscribe_form relative" action="form_handler.php" method="POST">
                                 	<div class="input-group d-flex flex-row">
-										<input name="EMAIL" placeholder="Enter email address" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Email Address '" required="" type="email">
-										<input name="FEEDBACK" placeholder="Enter your feedback" onfocus="this.placeholder = ''" onblur="this.placeholder = 'FeedBack '" required="" type="text" style="margin-top: 7px;">
+										<input name="email" placeholder="Enter email address" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Email Address '" required="" type="email">
+										<input name="feedback" placeholder="Enter your feedback" onfocus="this.placeholder = ''" onblur="this.placeholder = 'FeedBack '" required="" type="text" style="margin-top: 7px;">
                                         <button class="btn sub-btn" style="margin-top: 7px;"><span class="lnr lnr-arrow-right"></span></button>		
 									</div>
                                     <div class="mt-10 info"></div>
